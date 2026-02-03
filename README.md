@@ -2,7 +2,7 @@
 
 Interface web moderna para download de vídeos e extração de áudio de múltiplas plataformas (YouTube, TikTok, Instagram, X/Twitter). Focado em privacidade, com design responsivo.
 
-![NexusDL Preview](https://via.placeholder.com/800x400?text=Preview+da+Aplicacao)
+![NexusDL Preview](https://github.com/NexusDL/NexusDL/blob/main/nexusdl_preview.png?raw=true)
 
 ## Tecnologias
 
