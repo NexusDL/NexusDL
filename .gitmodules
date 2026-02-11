@@ -1,0 +1,6 @@
+[submodule "nexusdl-api"]
+	path = nexusdl-api
+	url = https://github.com/NexusDL/nexusdl-api
+[submodule "nexusdl-web"]
+	path = nexusdl-web
+	url = https://github.com/NexusDL/nexusdl-web

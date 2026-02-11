@@ -1,0 +1,25 @@
+{
+    "version": 3,
+    "name": "nexusdl",
+    "builds": [
+        {
+            "src": "frontend/package.json",
+            "use": "@vercel/next"
+        },
+        {
+            "src": "backend/main.py",
+            "use": "@vercel/python"
+        }
+    ],
+    "devCommand": "concurrently \"cd frontend && bun run dev\" \"cd backend && uvicorn main:app --reload --port 8000\"",
+    "routes": [
+        {
+            "src": "/api/(.*)",
+            "dest": "/backend/main.py"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/frontend/$1"
+        }
+    ]
+}
