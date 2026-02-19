@@ -1,6 +1,6 @@
 [submodule "api"]
 	path = api
-	url = https://github.com/NexusDL/nexusdl-api
+	url = git@github.com:NexusDL/nexusdl-api.git
 [submodule "web"]
 	path = web
-	url = https://github.com/NexusDL/nexusdl-web
+	url = git@github.com:NexusDL/nexusdl-web.git
